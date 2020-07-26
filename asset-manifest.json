@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/WeatherWithGoogle-App/static/css/main.271e6029.chunk.css",
+    "main.js": "/WeatherWithGoogle-App/static/js/main.6a19a33d.chunk.js",
+    "main.js.map": "/WeatherWithGoogle-App/static/js/main.6a19a33d.chunk.js.map",
+    "runtime-main.js": "/WeatherWithGoogle-App/static/js/runtime-main.c3061646.js",
+    "runtime-main.js.map": "/WeatherWithGoogle-App/static/js/runtime-main.c3061646.js.map",
+    "static/js/2.61e00f5d.chunk.js": "/WeatherWithGoogle-App/static/js/2.61e00f5d.chunk.js",
+    "static/js/2.61e00f5d.chunk.js.map": "/WeatherWithGoogle-App/static/js/2.61e00f5d.chunk.js.map",
+    "index.html": "/WeatherWithGoogle-App/index.html",
+    "precache-manifest.f31cb0bbf4983840ec20e7fdbdbeee95.js": "/WeatherWithGoogle-App/precache-manifest.f31cb0bbf4983840ec20e7fdbdbeee95.js",
+    "service-worker.js": "/WeatherWithGoogle-App/service-worker.js",
+    "static/css/main.271e6029.chunk.css.map": "/WeatherWithGoogle-App/static/css/main.271e6029.chunk.css.map",
+    "static/js/2.61e00f5d.chunk.js.LICENSE.txt": "/WeatherWithGoogle-App/static/js/2.61e00f5d.chunk.js.LICENSE.txt",
+    "static/media/WeatherPage.css": "/WeatherWithGoogle-App/static/media/background.b849ea30.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c3061646.js",
+    "static/js/2.61e00f5d.chunk.js",
+    "static/css/main.271e6029.chunk.css",
+    "static/js/main.6a19a33d.chunk.js"
+  ]
+}
