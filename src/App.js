@@ -6,8 +6,8 @@ class App extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      lat: 0,
-      lng: 0,
+      lat: 46.762716,
+      lng: 23.5585658,
     }
   }
 
