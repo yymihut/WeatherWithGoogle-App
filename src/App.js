@@ -25,10 +25,7 @@ class App extends Component {
 
   componentDidMount() {
     navigator.geolocation.getCurrentPosition(async position => {
-      this.coordinates = {
-        lat: position.coords.latitude,
-        lng: position.coords.longitude,
-      }
+      
       this.setState({
         lat: position.coords.latitude,
         lng: position.coords.longitude
@@ -43,7 +40,7 @@ class App extends Component {
       <WeatherPage
         lat={this.state.lat}
         lng={this.state.lng}
-        coords={this.coordinates}
+        coords={this.state}
         functionMap={this.takeCoordonatesFromMapClick}
       />
     )

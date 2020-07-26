@@ -12,8 +12,8 @@ class MapContainer extends Component {
             display: "flex"
         };
         this.state = {
-            lat: 0,
-            lng: 0,
+            lat: 46.762716,
+            lng: 23.5585658,
         }
         
     }
