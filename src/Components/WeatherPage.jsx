@@ -76,7 +76,7 @@ class WeatherPage extends Component {
 
   getCurrentWeather(currentLat, currentLon) {
     const apiKey1 = `2ca9ca04865ce518fae4c576a4ef76ec`;
-    axios.get(` http://api.openweathermap.org/data/2.5/weather?lat=${currentLat}&lon=${currentLon}&units=metric&appid=${apiKey1} `).
+    axios.get(` https://api.openweathermap.org/data/2.5/weather?lat=${currentLat}&lon=${currentLon}&units=metric&appid=${apiKey1} `).
       then(response => {
         this.setState({
           lat: currentLat,
