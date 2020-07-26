@@ -1,0 +1,58 @@
+
+body {
+  background-size: 100%;
+  height: auto;
+  margin: 0;
+  color: white;
+}
+.WeatherPage {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-image: url(../Images/background.jpeg);
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 700px;
+  color: black;
+}
+
+.title {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.prognoza {
+  font-size: 35px;
+  font-weight: bold;
+  color: white;
+  font-family: Bentham, serif;
+  margin-top: 9px;
+}
+
+.inputs {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-family: Bentham, serif;
+  font-weight: bold;
+
+  position: fixed;
+    top: 70px;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.inputs button {
+  background-color: rgb(9, 87, 110);
+  color: white;
+}
+
+.inputs input {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+
+
+

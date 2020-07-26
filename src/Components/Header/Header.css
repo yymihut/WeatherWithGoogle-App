@@ -1,0 +1,36 @@
+.header {
+  height: 60px;
+  background-color: #09568e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: sticky;
+  max-width: 100%;
+
+  position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+#headerParagraf {
+  color: white;
+  text-align: center;
+  height: 30px;
+  font-size: 28px;
+  min-width: 884px;
+  margin-bottom: 9px;
+  font-family: Bentham, serif;
+  font-weight: bolder;
+}
+
+.info {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  font-size: 17px;
+  font-family: Bentham, serif;
+}

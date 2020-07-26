@@ -1,0 +1,39 @@
+.cont {
+  background-color: rgba(2,108,232,0.24);
+  padding: 10px;
+  min-width: 400px;
+  min-height: 80px;
+  font-size: 20px;
+  font-family: Bentham, serif;
+  margin: 10px;
+  align-self: center;
+  position: relative;
+}
+
+
+body {
+  font-family: "Alfa Slab One", cursive;
+}
+
+.datas p {
+  text-align: left;
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  font-weight:normal;
+  padding: 5px;
+  margin: 5px;
+}
+#title {
+  display: flex;
+  vertical-align: middle;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+.datas {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-content: space-around;
+  flex-wrap: wrap;
+}
