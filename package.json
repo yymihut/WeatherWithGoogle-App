@@ -24,7 +24,7 @@
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"    
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -43,5 +43,16 @@
   },
   "devDependencies": {
     "gh-pages": "^3.1.0"
+  },
+  "description": "IMPORTANT !!! - in componenta MapGoogle - la tagul LoadScript se pune cheia (api key - dupa ce te inregistrezi) userului tau de google / LoadScript googleMapsApiKey='your API key' /",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yymihut/WeatherWithGoogle-Class-based.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yymihut/WeatherWithGoogle-Class-based/issues"
   }
 }

@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
-/* import './App.css'; */
 import WeatherPage from './Components/WeatherPage';
 
 class App extends Component {
-  constructor(props) {
-    super(props)
+  constructor() {
+    super()
     this.state = {
       lat: 46.762716,
       lng: 23.5585658,
@@ -16,11 +15,8 @@ class App extends Component {
       lat: parseFloat(data[0].trim()),
       lng: parseFloat(data[1].trim())
 
-
-      /* newLat: data[0].trim(),
-      newLng: data[1].trim() */
     });
-    console.log('parinte', this.state)
+    //console.log('parinte', this.state)
   }
 
   componentDidMount() {
@@ -30,8 +26,7 @@ class App extends Component {
         lat: position.coords.latitude,
         lng: position.coords.longitude
       });
-
-      console.log('curr location', this.state.lat, this.state.lng)
+      //console.log('curr location', this.state.lat, this.state.lng)
     })
   }
 
@@ -44,7 +39,6 @@ class App extends Component {
         functionMap={this.takeCoordonatesFromMapClick}
       />
     )
-
   }
 }
 

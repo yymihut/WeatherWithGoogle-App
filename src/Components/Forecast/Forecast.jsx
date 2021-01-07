@@ -2,8 +2,6 @@ import React from 'react';
 import './Forecast.css';
 import shortid from 'shortid';
 
-
-
 const forecast = (props) => {
     
     return (
